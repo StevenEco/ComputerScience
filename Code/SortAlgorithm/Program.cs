@@ -2,28 +2,19 @@
 
 namespace SortAlgorithm
 {
-    class Program
+    public static class ArrayExtension
     {
-        static void Main(string[] args)
+        # region Common Utils
+        # endregion
+
+        # region HeapSort
+        private static void Swap(int[] array, int i, int j)
         {
-            int[] array = new int[] { 3, 5, 1, 6, 2, 8, 4, 13, 7, 16, 0 };
-            Program p = new Program();
-            p.BuildHeap(array);
-            for (int i = 0; i < array.Length; i++)
-            {
-                Console.Write(array[i]);
-                Console.Write("\t");
-            }
-            Console.WriteLine();
-            array = new int[] { 3, 5, 1, 6, 2, 8, 4, 13, 7, 16, 0 };
-            p.HeapSort(array);
-            for (int i = 0; i < array.Length; i++)
-            {
-                Console.Write(array[i]);
-                Console.Write("\t");
-            }
+            int temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
         }
-        private void HeapAdjust(int[] array, int i, int n = -1)
+        private static void Heapify(int[] array, int i, int n = -1)
         {
             if (n == -1)
             {
@@ -43,33 +34,66 @@ namespace SortAlgorithm
             if (maxIndex != i)
             {
                 Swap(array, i, maxIndex);
-                HeapAdjust(array, maxIndex, n);
+                Heapify(array, maxIndex, n);
             }
         }
-        private void BuildHeap(int[] array)
+
+        /// <summary>
+        /// 小根堆
+        /// </summary>
+        /// <param name="array"></param>
+        public static void BuildHeap(this int[] array)
         {
             int last = array.Length - 1;
             int parent = (array.Length - 2) / 2;
             for (int i = parent; i >= 0; i--)
             {
-                HeapAdjust(array, i);
-            }
-        }
-        private void HeapSort(int[] array)
-        {
-            BuildHeap(array);
-            for (int i = array.Length - 1; i >= 0; i--)
-            {
-                Swap(array, i, 0);
-                HeapAdjust(array, 0, i);
+                Heapify(array, i);
             }
         }
 
-        private void Swap(int[] array, int i, int j)
+        public static void HeapSort(this int[] array, int n = -1)
         {
-            int temp = array[i];
-            array[i] = array[j];
-            array[j] = temp;
+            if (n == -1)
+            {
+                n = array.Length - 1;
+            }
+            else
+            {
+                n = array.Length - n - 1;
+            }
+            BuildHeap(array);
+            for (int i = n; i >= 0; i--)
+            {
+                Swap(array, i, 0);
+                Heapify(array, 0, i);
+            }
+        }
+        # endregion
+
+    }
+
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] array = new int[] { 3, 5, 1, 6, 2, 8, 4, 13, 7, 16, 0 };
+            array.BuildHeap();
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.Write(array[i]);
+                Console.Write("\t");
+            }
+            Console.WriteLine();
+            array = new int[] { 3, 5, 1, 3, 2, 8, 4, 13, 7, 16, 0 };
+            array.HeapSort(5);
+            Console.WriteLine();
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.Write(array[i]);
+                Console.Write("\t");
+            }
         }
     }
 }
