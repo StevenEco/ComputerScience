@@ -1,0 +1,13 @@
+F:\GithubRepo\ComputerScience\Code\SortAlgorithm\bin\Debug\netcoreapp3.1\SortAlgorithm.exe
+F:\GithubRepo\ComputerScience\Code\SortAlgorithm\bin\Debug\netcoreapp3.1\SortAlgorithm.deps.json
+F:\GithubRepo\ComputerScience\Code\SortAlgorithm\bin\Debug\netcoreapp3.1\SortAlgorithm.runtimeconfig.json
+F:\GithubRepo\ComputerScience\Code\SortAlgorithm\bin\Debug\netcoreapp3.1\SortAlgorithm.runtimeconfig.dev.json
+F:\GithubRepo\ComputerScience\Code\SortAlgorithm\bin\Debug\netcoreapp3.1\SortAlgorithm.dll
+F:\GithubRepo\ComputerScience\Code\SortAlgorithm\bin\Debug\netcoreapp3.1\SortAlgorithm.pdb
+F:\GithubRepo\ComputerScience\Code\SortAlgorithm\obj\Debug\netcoreapp3.1\SortAlgorithm.csprojAssemblyReference.cache
+F:\GithubRepo\ComputerScience\Code\SortAlgorithm\obj\Debug\netcoreapp3.1\SortAlgorithm.AssemblyInfoInputs.cache
+F:\GithubRepo\ComputerScience\Code\SortAlgorithm\obj\Debug\netcoreapp3.1\SortAlgorithm.AssemblyInfo.cs
+F:\GithubRepo\ComputerScience\Code\SortAlgorithm\obj\Debug\netcoreapp3.1\SortAlgorithm.csproj.CoreCompileInputs.cache
+F:\GithubRepo\ComputerScience\Code\SortAlgorithm\obj\Debug\netcoreapp3.1\SortAlgorithm.dll
+F:\GithubRepo\ComputerScience\Code\SortAlgorithm\obj\Debug\netcoreapp3.1\SortAlgorithm.pdb
+F:\GithubRepo\ComputerScience\Code\SortAlgorithm\obj\Debug\netcoreapp3.1\SortAlgorithm.genruntimeconfig.cache
