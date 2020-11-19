@@ -1,115 +1,112 @@
-\documentclass[UTF8]{article}
+\documentclass[UTF8]{book}
 
 \usepackage{ctex}
-\usepackage{fancyhdr}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
 
 \title{计算机科学基础}
 \author{陈相安}
 \date{\today}  
 \begin{document}
     \maketitle
-    \thispagestyle{empty}
     \newpage
-    \thispagestyle{empty}
     \tableofcontents
-    \thispagestyle{empty}
     \pagenumbering{arabic}
     \newpage
-    \thispagestyle{empty}
-    \section{序}
-        \subsection{序言}
-        \subsection{前言}
+    \chapter{序}
+        \section{序言}
+        \section{前言}
     \newpage
-    \section{第一章：数据结构}
-        \subsection{线性表}
-            \subsubsection{顺序表}
-            \subsubsection{链表}
-        \subsection{串}
-        \subsection{堆}
-        \subsection{栈}
-        \subsection{队列}
-        \subsection{哈希表}
-        \subsection{树}
-        \subsection{图}
-        \subsection{特殊数据结构}
-            \subsubsection{线段树}
-            \subsubsection{并查集}
-            \subsubsection{字典树}
+    \chapter{第一章：数据结构}
+        \section{线性表}
+            \subsection{顺序表}
+            \subsection{链表}
+        \section{串}
+        \section{堆}
+        \section{栈}
+        \section{队列}
+        \section{哈希表}
+        \section{树}
+        \section{图}
+        \section{特殊数据结构}
+            \subsection{线段树}
+            \subsection{并查集}
+            \subsection{字典树}
     \newpage
-    \section{第二章：算法思想}
-        \subsection{算法概论}
-        \subsection{递归算法}
-        \subsection{分治算法}
-        \subsection{双指针算法}
-        \subsection{动态规划算法}
-            \subsubsection{贪心算法}
-        \subsection{回溯算法}
-        \subsection{深度优先与广度优先算法}
-        \subsection{排序算法}
-        \subsection{查找算法}
-        \subsection{字符串相关算法}
+    \chapter{第二章：算法思想}
+        \section{算法概论}
+        \section{递归算法}
+        \section{分治算法}
+        \section{双指针算法}
+        \section{动态规划算法}
+            \subsection{贪心算法}
+        \section{回溯算法}
+        \section{深度优先与广度优先算法}
+        \section{排序算法}
+        \section{查找算法}
+        \section{字符串相关算法}
     \newpage
-    \section{第三章：计算机操作系统}
-        \subsection{操作系统概论}
-        \subsection{进程管理}
-        \subsection{内存管理}
-        \subsection{文件管理}
-        \subsection{I/O管理}
-        \subsection{操作系统安全性}
+    \chapter{第三章：计算机操作系统}
+        \section{操作系统概论}
+        \section{进程管理}
+        \section{内存管理}
+        \section{文件管理}
+        \section{I/O管理}
+        \section{操作系统安全性}
 
     \newpage
-    \section{第四章：计算机网络}
-        \subsection{网络结构绪论}
-        \subsection{物理层}
-        \subsection{数据链路层}
-        \subsection{网络层}
-        \subsection{传输层}
-        \subsection{会话层}
-        \subsection{表示层}
-        \subsection{应用层}
-        \subsection{网络安全与管理}
+    \chapter{第四章：计算机网络}
+        \section{网络结构绪论}
+        \section{物理层}
+        \section{数据链路层}
+        \section{网络层}
+        \section{传输层}
+        \section{会话层}
+        \section{表示层}
+        \section{应用层}
+        \section{网络安全与管理}
     \newpage
-    \section{第五章：编译原理}
-        \subsection{绪论}
-        \subsection{语法制导简述}
-        \subsection{词法分析}
-        \subsection{语法分析}
-        \subsection{语法制导翻译}
-        \subsection{中间代码的生成}
-        \subsection{运行时环境}
-        \subsection{代码生成}
-        \subsection{机器无关优化}
-        \subsection{指令级并行}
-        \subsection{并行与局部优化}
-        \subsection{过程间分析}
+    \chapter{第五章：编译原理}
+        \section{绪论}
+        \section{语法制导简述}
+        \section{词法分析}
+        \section{语法分析}
+        \section{语法制导翻译}
+        \section{中间代码的生成}
+        \section{运行时环境}
+        \section{代码生成}
+        \section{机器无关优化}
+        \section{指令级并行}
+        \section{并行与局部优化}
+        \section{过程间分析}
     \newpage
-    \section{第六章：计算机组成原理}
-        \subsection{绪论}
-        \subsection{数据表示和运算}
-        \subsection{存储器层次结构}
-        \subsection{指令系统}
-        \subsection{CPU运行流程}
-        \subsection{总线}
-        \subsection{输入输出系统}
+    \chapter{第六章：计算机组成原理}
+        \section{绪论}
+        \section{数据表示和运算}
+        \section{存储器层次结构}
+        \section{指令系统}
+        \section{CPU运行流程}
+        \section{总线}
+        \section{输入输出系统}
     \newpage
-    \section{计算机数学拓展：离散数学基础}
-        \subsection{绪论}
-        \subsection{逻辑与证明}
-        \subsection{基本结构}
-        \subsection{算法分析}
-        \subsection{数论与密码学}
-        \subsection{归纳与递归}
-        \subsection{计数}
-        \subsection{离散概率}
-        \subsection{关系}
-        \subsection{图论}
-        \subsection{树}
-        \subsection{计算模型}
+    \chapter{计算机数学拓展：离散数学基础}
+        \section{绪论}
+        \section{逻辑与证明}
+        \section{基本结构}
+        \section{算法分析}
+        \section{数论与密码学}
+        \section{归纳与递归}
+        \section{计数}
+        \section{离散概率}
+        \section{关系}
+        \section{图论}
+        \section{树}
+        \section{计算模型}
     \newpage
-    \section{附录A：数学符号意义}
-    \section{推荐读物}
-    \section{参考文献}
-    \section{练习题答案}
-    \section{后记}
+    \chapter{附录A：数学符号意义}
+    \chapter{推荐读物}
+    \chapter{参考文献}
+    \chapter{练习题答案}
+    \chapter{后记}
 \end{document}
 
