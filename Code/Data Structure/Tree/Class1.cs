@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LinkedList
+namespace Tree
 {
     public class Class1
     {
