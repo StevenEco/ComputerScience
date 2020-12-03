@@ -1,86 +1,86 @@
-\contentsline {chapter}{\numberline {第一章\hspace {.3em}}绪论}{7}%
-\contentsline {section}{\numberline {1.1}序言}{7}%
-\contentsline {section}{\numberline {1.2}前言}{8}%
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}数据结构}{9}%
-\contentsline {section}{\numberline {2.1}线性表}{9}%
-\contentsline {subsection}{\numberline {2.1.1}顺序表}{10}%
-\contentsline {subsection}{\numberline {2.1.2}链表}{10}%
-\contentsline {section}{\numberline {2.2}串}{10}%
-\contentsline {section}{\numberline {2.3}堆}{10}%
-\contentsline {section}{\numberline {2.4}栈}{10}%
-\contentsline {section}{\numberline {2.5}队列}{10}%
-\contentsline {section}{\numberline {2.6}哈希表}{10}%
-\contentsline {section}{\numberline {2.7}树}{10}%
-\contentsline {section}{\numberline {2.8}图}{10}%
-\contentsline {section}{\numberline {2.9}特殊数据结构}{10}%
-\contentsline {subsection}{\numberline {2.9.1}线段树}{10}%
-\contentsline {subsection}{\numberline {2.9.2}并查集}{10}%
-\contentsline {subsection}{\numberline {2.9.3}字典树}{10}%
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}算法思想}{11}%
-\contentsline {section}{\numberline {3.1}算法概论}{11}%
-\contentsline {section}{\numberline {3.2}递归算法}{11}%
-\contentsline {section}{\numberline {3.3}分治算法}{11}%
-\contentsline {section}{\numberline {3.4}双指针算法}{11}%
-\contentsline {section}{\numberline {3.5}动态规划算法}{11}%
-\contentsline {subsection}{\numberline {3.5.1}贪心算法}{11}%
-\contentsline {section}{\numberline {3.6}回溯算法}{11}%
-\contentsline {section}{\numberline {3.7}深度优先与广度优先算法}{11}%
-\contentsline {section}{\numberline {3.8}排序算法}{11}%
-\contentsline {section}{\numberline {3.9}查找算法}{11}%
-\contentsline {section}{\numberline {3.10}字符串相关算法}{11}%
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}计算机操作系统}{13}%
-\contentsline {section}{\numberline {4.1}操作系统概论}{13}%
-\contentsline {section}{\numberline {4.2}进程管理}{13}%
-\contentsline {section}{\numberline {4.3}内存管理}{13}%
-\contentsline {section}{\numberline {4.4}文件管理}{13}%
-\contentsline {section}{\numberline {4.5}I/O管理}{13}%
-\contentsline {section}{\numberline {4.6}操作系统安全性}{13}%
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}计算机网络}{15}%
-\contentsline {section}{\numberline {5.1}网络结构绪论}{15}%
-\contentsline {section}{\numberline {5.2}物理层}{15}%
-\contentsline {section}{\numberline {5.3}数据链路层}{15}%
-\contentsline {section}{\numberline {5.4}网络层}{15}%
-\contentsline {section}{\numberline {5.5}传输层}{15}%
-\contentsline {section}{\numberline {5.6}会话层}{15}%
-\contentsline {section}{\numberline {5.7}表示层}{15}%
-\contentsline {section}{\numberline {5.8}应用层}{15}%
-\contentsline {section}{\numberline {5.9}网络安全与管理}{15}%
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}计算机组成原理}{17}%
-\contentsline {section}{\numberline {6.1}绪论}{17}%
-\contentsline {section}{\numberline {6.2}语法制导简述}{17}%
-\contentsline {section}{\numberline {6.3}词法分析}{17}%
-\contentsline {section}{\numberline {6.4}语法分析}{17}%
-\contentsline {section}{\numberline {6.5}语法制导翻译}{17}%
-\contentsline {section}{\numberline {6.6}中间代码的生成}{17}%
-\contentsline {section}{\numberline {6.7}运行时环境}{17}%
-\contentsline {section}{\numberline {6.8}代码生成}{17}%
-\contentsline {section}{\numberline {6.9}机器无关优化}{17}%
-\contentsline {section}{\numberline {6.10}指令级并行}{17}%
-\contentsline {section}{\numberline {6.11}并行与局部优化}{17}%
-\contentsline {section}{\numberline {6.12}过程间分析}{17}%
-\contentsline {chapter}{\numberline {第七章\hspace {.3em}}编译原理}{19}%
-\contentsline {section}{\numberline {7.1}绪论}{19}%
-\contentsline {section}{\numberline {7.2}数据表示和运算}{19}%
-\contentsline {section}{\numberline {7.3}存储器层次结构}{19}%
-\contentsline {section}{\numberline {7.4}指令系统}{19}%
-\contentsline {section}{\numberline {7.5}CPU运行流程}{19}%
-\contentsline {section}{\numberline {7.6}总线}{19}%
-\contentsline {section}{\numberline {7.7}输入输出系统}{19}%
-\contentsline {chapter}{\numberline {第八章\hspace {.3em}}计算机数学拓展-离散数学基础}{21}%
-\contentsline {section}{\numberline {8.1}绪论}{22}%
-\contentsline {section}{\numberline {8.2}逻辑与证明}{22}%
-\contentsline {section}{\numberline {8.3}基本结构}{22}%
-\contentsline {section}{\numberline {8.4}算法分析}{22}%
-\contentsline {section}{\numberline {8.5}数论与密码学}{22}%
-\contentsline {section}{\numberline {8.6}归纳与递归}{22}%
-\contentsline {section}{\numberline {8.7}计数}{22}%
-\contentsline {section}{\numberline {8.8}离散概率}{22}%
-\contentsline {section}{\numberline {8.9}关系}{22}%
-\contentsline {section}{\numberline {8.10}图论}{22}%
-\contentsline {section}{\numberline {8.11}树}{22}%
-\contentsline {section}{\numberline {8.12}计算模型}{22}%
-\contentsline {chapter}{\numberline {第九章\hspace {.3em}}附录A：数学符号意义}{23}%
-\contentsline {chapter}{\numberline {第十章\hspace {.3em}}推荐读物}{25}%
-\contentsline {chapter}{\numberline {第十一章\hspace {.3em}}参考文献}{27}%
-\contentsline {chapter}{\numberline {第十二章\hspace {.3em}}练习题答案}{29}%
-\contentsline {chapter}{\numberline {第十三章\hspace {.3em}}后记}{31}%
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}绪论}{1}%
+\contentsline {section}{\numberline {1.1}序言}{1}%
+\contentsline {section}{\numberline {1.2}前言}{2}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}数据结构}{3}%
+\contentsline {section}{\numberline {2.1}线性表}{3}%
+\contentsline {subsection}{\numberline {2.1.1}顺序表}{4}%
+\contentsline {subsection}{\numberline {2.1.2}链表}{4}%
+\contentsline {section}{\numberline {2.2}串}{4}%
+\contentsline {section}{\numberline {2.3}堆}{4}%
+\contentsline {section}{\numberline {2.4}栈}{4}%
+\contentsline {section}{\numberline {2.5}队列}{4}%
+\contentsline {section}{\numberline {2.6}哈希表}{4}%
+\contentsline {section}{\numberline {2.7}树}{4}%
+\contentsline {section}{\numberline {2.8}图}{4}%
+\contentsline {section}{\numberline {2.9}特殊数据结构}{4}%
+\contentsline {subsection}{\numberline {2.9.1}线段树}{4}%
+\contentsline {subsection}{\numberline {2.9.2}并查集}{4}%
+\contentsline {subsection}{\numberline {2.9.3}字典树}{4}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}算法思想}{5}%
+\contentsline {section}{\numberline {3.1}算法概论}{5}%
+\contentsline {section}{\numberline {3.2}递归算法}{5}%
+\contentsline {section}{\numberline {3.3}分治算法}{5}%
+\contentsline {section}{\numberline {3.4}双指针算法}{5}%
+\contentsline {section}{\numberline {3.5}动态规划算法}{5}%
+\contentsline {subsection}{\numberline {3.5.1}贪心算法}{5}%
+\contentsline {section}{\numberline {3.6}回溯算法}{5}%
+\contentsline {section}{\numberline {3.7}深度优先与广度优先算法}{5}%
+\contentsline {section}{\numberline {3.8}排序算法}{5}%
+\contentsline {section}{\numberline {3.9}查找算法}{5}%
+\contentsline {section}{\numberline {3.10}字符串相关算法}{5}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}计算机操作系统}{7}%
+\contentsline {section}{\numberline {4.1}操作系统概论}{7}%
+\contentsline {section}{\numberline {4.2}进程管理}{7}%
+\contentsline {section}{\numberline {4.3}内存管理}{7}%
+\contentsline {section}{\numberline {4.4}文件管理}{7}%
+\contentsline {section}{\numberline {4.5}I/O管理}{7}%
+\contentsline {section}{\numberline {4.6}操作系统安全性}{7}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}计算机网络}{9}%
+\contentsline {section}{\numberline {5.1}网络结构绪论}{9}%
+\contentsline {section}{\numberline {5.2}物理层}{9}%
+\contentsline {section}{\numberline {5.3}数据链路层}{9}%
+\contentsline {section}{\numberline {5.4}网络层}{9}%
+\contentsline {section}{\numberline {5.5}传输层}{9}%
+\contentsline {section}{\numberline {5.6}会话层}{9}%
+\contentsline {section}{\numberline {5.7}表示层}{9}%
+\contentsline {section}{\numberline {5.8}应用层}{9}%
+\contentsline {section}{\numberline {5.9}网络安全与管理}{9}%
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}计算机组成原理}{11}%
+\contentsline {section}{\numberline {6.1}绪论}{11}%
+\contentsline {section}{\numberline {6.2}语法制导简述}{11}%
+\contentsline {section}{\numberline {6.3}词法分析}{11}%
+\contentsline {section}{\numberline {6.4}语法分析}{11}%
+\contentsline {section}{\numberline {6.5}语法制导翻译}{11}%
+\contentsline {section}{\numberline {6.6}中间代码的生成}{11}%
+\contentsline {section}{\numberline {6.7}运行时环境}{11}%
+\contentsline {section}{\numberline {6.8}代码生成}{11}%
+\contentsline {section}{\numberline {6.9}机器无关优化}{11}%
+\contentsline {section}{\numberline {6.10}指令级并行}{11}%
+\contentsline {section}{\numberline {6.11}并行与局部优化}{11}%
+\contentsline {section}{\numberline {6.12}过程间分析}{11}%
+\contentsline {chapter}{\numberline {第七章\hspace {.3em}}编译原理}{13}%
+\contentsline {section}{\numberline {7.1}绪论}{13}%
+\contentsline {section}{\numberline {7.2}数据表示和运算}{13}%
+\contentsline {section}{\numberline {7.3}存储器层次结构}{13}%
+\contentsline {section}{\numberline {7.4}指令系统}{13}%
+\contentsline {section}{\numberline {7.5}CPU运行流程}{13}%
+\contentsline {section}{\numberline {7.6}总线}{13}%
+\contentsline {section}{\numberline {7.7}输入输出系统}{13}%
+\contentsline {chapter}{\numberline {第八章\hspace {.3em}}计算机数学拓展-离散数学基础}{15}%
+\contentsline {section}{\numberline {8.1}绪论}{16}%
+\contentsline {section}{\numberline {8.2}逻辑与证明}{16}%
+\contentsline {section}{\numberline {8.3}基本结构}{16}%
+\contentsline {section}{\numberline {8.4}算法分析}{16}%
+\contentsline {section}{\numberline {8.5}数论与密码学}{16}%
+\contentsline {section}{\numberline {8.6}归纳与递归}{16}%
+\contentsline {section}{\numberline {8.7}计数}{16}%
+\contentsline {section}{\numberline {8.8}离散概率}{16}%
+\contentsline {section}{\numberline {8.9}关系}{16}%
+\contentsline {section}{\numberline {8.10}图论}{16}%
+\contentsline {section}{\numberline {8.11}树}{16}%
+\contentsline {section}{\numberline {8.12}计算模型}{16}%
+\contentsline {chapter}{\numberline {第九章\hspace {.3em}}附录A：数学符号意义}{17}%
+\contentsline {chapter}{\numberline {第十章\hspace {.3em}}推荐读物}{19}%
+\contentsline {chapter}{\numberline {第十一章\hspace {.3em}}参考文献}{21}%
+\contentsline {chapter}{\numberline {第十二章\hspace {.3em}}练习题答案}{23}%
+\contentsline {chapter}{\numberline {第十三章\hspace {.3em}}后记}{25}%

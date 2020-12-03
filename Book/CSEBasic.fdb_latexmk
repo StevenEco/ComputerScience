@@ -1,13 +1,13 @@
 # Fdb version 3
-["pdflatex"] 1605877700 "f:/GithubRepo/ComputerScience/Book/CSEBasic.tex" "f:/GithubRepo/ComputerScience/Book/CSEBasic.pdf" "CSEBasic" 1605877706
-  "CSEBasic.aux" 1605877702 10099 1d6c72dc411d3bee4c3043f51dec46a7 "pdflatex"
-  "CSEBasic.tex" 1605877695 7497 13da299098d3e5ce1b00282f2db4a2bd ""
-  "CSEBasic.toc" 1605877702 5520 d7370a2984e416473df0679c7ac90474 "pdflatex"
+["pdflatex"] 1605887325 "f:/GithubRepo/ComputerScience/Book/CSEBasic.tex" "f:/GithubRepo/ComputerScience/Book/CSEBasic.pdf" "CSEBasic" 1605887375
+  "CSEBasic.aux" 1605887327 10057 8ebdca7482a731653b248b1c22763eb4 "pdflatex"
+  "CSEBasic.tex" 1605887373 7555 3f0915e0cbe5f59b56516344dfc5f696 ""
+  "CSEBasic.toc" 1605887327 5478 8ac09d396ec617087ec763d4c7c52abd "pdflatex"
   "c:/Windows/Fonts/msyh.ttc" 1575709707 19647736 ff2e53a6131130a07589812ea5b5b0d0 ""
   "c:/Windows/Fonts/simhei.ttf" 1571147160 9753388 6abc0fcfbaa40600f9cecca3afeb3aa7 ""
   "c:/Windows/Fonts/simsun.ttc" 1575709707 18214472 19674afc0754c3df8182b89fe7f0156d ""
-  "f:/GithubRepo/ComputerScience/Book/CSEBasic.aux" 1605877702 10099 1d6c72dc411d3bee4c3043f51dec46a7 ""
-  "f:/GithubRepo/ComputerScience/Book/CSEBasic.tex" 1605877695 7497 13da299098d3e5ce1b00282f2db4a2bd ""
+  "f:/GithubRepo/ComputerScience/Book/CSEBasic.aux" 1605887327 10057 8ebdca7482a731653b248b1c22763eb4 ""
+  "f:/GithubRepo/ComputerScience/Book/CSEBasic.tex" 1605887373 7555 3f0915e0cbe5f59b56516344dfc5f696 ""
   "f:/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1605768959 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "f:/texlive/2020/texmf-dist/fonts/sfd/ttf2pk/UGBK.sfd" 1605771137 182544 bcd31d5d273400b38612a969fcab55f9 ""
   "f:/texlive/2020/texmf-dist/fonts/sfd/ttf2pk/Unicode.sfd" 1605771137 103212 c249c63d38b8b55408aee52d643b0c18 ""
@@ -318,8 +318,8 @@
   "f:/texlive/2020/texmf.cnf" 1605771494 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   (generated)
   "f:/GithubRepo/ComputerScience/Book/CSEBasic.log"
-  "CSEBasic.log"
-  "f:/GithubRepo/ComputerScience/Book/CSEBasic.pdf"
-  "CSEBasic.pdf"
   "CSEBasic.toc"
   "CSEBasic.aux"
+  "f:/GithubRepo/ComputerScience/Book/CSEBasic.pdf"
+  "CSEBasic.log"
+  "CSEBasic.pdf"

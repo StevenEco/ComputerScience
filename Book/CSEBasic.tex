@@ -8,12 +8,15 @@
 \author{陈相安}
 \date{\today}  
 \begin{document}
-    \pagenumbering{arabic}
+    \pagenumbering{gobble}
     \maketitle
     \newpage
     \tikz[remember picture, overlay] 
     \node at (current page.center){\Large 致所有我爱和爱我的人};
     \tableofcontents
+    \newpage
+    \clearpage
+    \pagenumbering{arabic}
     \chapter{绪论}
         \section{序言}
         相比较语言的学习，CSE的基础课程同样的重要。我时常称这些看起来并没有什么用处的课程

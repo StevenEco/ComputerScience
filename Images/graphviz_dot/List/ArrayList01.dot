@@ -1,0 +1,10 @@
+digraph List {
+    node [shape = record];
+    List [label = "
+    <f0>...|<f1>Item3|<f2>...|
+    <f3>Item1|<f4>...|<f5>Item2|
+    <f6>...|<f7>Item4|<f8>..."];
+    List:f3 -> List:f5;
+    List:f5 -> List:f1;
+    List:f1 -> List:f7;
+}
