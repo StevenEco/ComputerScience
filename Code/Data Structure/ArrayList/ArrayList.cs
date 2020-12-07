@@ -3,15 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ArrayList
+namespace DS_ArrayList
 {
-    public class ArrayList<T> : IDisposable, IArrayList<T>
+    public class ArrayList<T> : IDisposable, IArrayList<T>, IEnumerable
     {
         private const double LAMBDA = 0.75;
         private T[] _data;
         private int _capacity;
         private int _length;
-
         public ArrayList()
         {
             _data = new T[10];
@@ -28,9 +27,11 @@ namespace ArrayList
 
         public T this[int index] { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
-        public int Length => throw new NotImplementedException();
+        public int Length => _length;
 
         public bool IsEmpty => throw new NotImplementedException();
+
+        public int Capacity => throw new NotImplementedException();
 
         public void Append(T item)
         {
@@ -77,10 +78,24 @@ namespace ArrayList
             throw new NotImplementedException();
         }
 
-        public void Update(int index, T item)
+        public void UpdateAt(int index, T item)
         {
             throw new NotImplementedException();
         }
 
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder(_capacity);
+            foreach (var item in this)
+            {
+                sb.Append(item+"\t");
+            }
+            return sb.ToString();
+        }
+
+        public IEnumerator GetEnumerator()
+        {
+            return new ArrayListEnum<T>(this);
+        }
     }
 }

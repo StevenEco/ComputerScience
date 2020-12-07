@@ -1,16 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-
-namespace ArrayList
+﻿namespace DS_ArrayList
 {
-    public interface IArrayList<T> : IEnumerable
+    public interface IArrayList<T>
     {
         int Length { get; }
+        int Capacity { get; }
         T this[int index] { get; set; }
         void Append(T item);
         void Insert(int index, T item);
         void Update(T item, T newItem);
-        void Update(int index, T item);
+        void UpdateAt(int index, T item);
         bool Remove(T item);
         bool RemoveAt(int index);
         int IndexOf(T item);
