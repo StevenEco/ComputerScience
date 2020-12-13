@@ -9,6 +9,7 @@ namespace DS_LinkedList
         public LinkedListEnum(LinkedList<T> linkedList)
         {
             _list = linkedList;
+            _data = _list.Head;
         }
 
         public object Current => _data;

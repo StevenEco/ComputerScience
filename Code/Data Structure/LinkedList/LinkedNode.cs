@@ -10,7 +10,12 @@ namespace DS_LinkedList
         public LinkedNode<T> Next { get; set; }
         public LinkedNode()
         {
-
+            Data = default;
+            Next = null;
+        }
+        public LinkedNode(T data)
+        {
+            Data = data;
         }
         ~LinkedNode()
         {

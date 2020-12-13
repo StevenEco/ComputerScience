@@ -8,10 +8,12 @@ namespace DS_LinkedList
         LinkedNode<T> Head { get; set; }
         int Length { get; }
         bool IsEmpty { get; }
+        void Append(T data);
+        void Append(LinkedNode<T> node);
         void Insert(int index, T data);
         void Insert(int index, LinkedNode<T> data);
         bool Delete(int index);
-        void Search(T data);
+        int Search(T data);
         void Update(int index, T data);
         void Clear();
     }

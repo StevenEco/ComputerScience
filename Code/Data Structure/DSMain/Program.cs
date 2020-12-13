@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DS_LinkedList;
+using System;
 
 namespace DSMain
 {
@@ -6,7 +7,10 @@ namespace DSMain
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ILinkedList<int> list = new LinkedList<int>();
+            list.Append(1);
+            list.Append(2);
+            Console.WriteLine(list);
         }
     }
 }

@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Data Structure\ArrayList\DS_ArrayList.csproj" />
+    <ProjectReference Include="..\..\Data Structure\LinkedList\DS_LinkedList.csproj" />
   </ItemGroup>
 
 </Project>

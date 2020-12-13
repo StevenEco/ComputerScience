@@ -1,5 +1,4 @@
 using DS_ArrayList;
-using System;
 using Xunit;
 
 namespace DataStructureTest
