@@ -5,7 +5,7 @@ namespace DataStructureTest
 {
     public class ArrayListTest
     {
-        private static IArrayList<int> _arrayList = new ArrayList<int>(5);
+        private IArrayList<int> _arrayList = new ArrayList<int>(5);
 
         [Fact]
         public void AutoIncreasing()
