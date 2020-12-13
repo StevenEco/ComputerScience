@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.Text;
 
 namespace DS_ArrayList
 {
-    public class ArrayList<T> : IDisposable, IArrayList<T>, IEnumerable
+    public class ArrayList<T> : IArrayList<T>
     {
         private const double LAMBDA = 0.75;
         private T[] _data;

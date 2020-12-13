@@ -1,6 +1,8 @@
-﻿namespace DS_ArrayList
+﻿using System;
+
+namespace DS_ArrayList
 {
-    public interface IArrayList<T>
+    public interface IArrayList<T>: IDisposable, IEnumerable
     {
         int Length { get; }
         int Capacity { get; }
