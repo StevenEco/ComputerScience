@@ -6,7 +6,7 @@ namespace SortAlgorithm
     class Program
     {
         #region Init and Help Method
-        public static Program obj = new Program();
+        public static Program obj = new();
         /// <summary>
         /// Swap array element
         /// </summary>
@@ -27,7 +27,7 @@ namespace SortAlgorithm
         {
             HashSet<int> hs = new HashSet<int>(count);
             int[] array = new int[count];
-            Random rd = new Random();
+            Random rd = new();
             for (int i = 0; i < array.Length; i++)
             {
                 int item = rd.Next(min, max);

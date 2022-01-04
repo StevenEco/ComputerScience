@@ -84,7 +84,7 @@ namespace DS_ArrayList
 
         public override string ToString()
         {
-            StringBuilder sb = new StringBuilder(_capacity);
+            StringBuilder sb = new(_capacity);
             foreach (var item in this)
             {
                 sb.Append(item+"\t");
